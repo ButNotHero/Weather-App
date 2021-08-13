@@ -1,12 +1,10 @@
 {
-  "name": "my-typescript-default",
+  "name": "weather-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
     "fix": "yarn fix:eslint && yarn fix:prettier && yarn fix:stylelint",
     "fix:eslint": "eslint **/*.{js,ts,vue} --fix",
     "fix:prettier": "prettier --write **/*.{vue,js,ts,css,sass,scss}",

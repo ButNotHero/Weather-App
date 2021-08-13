@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     'max-len': 'off',
     'global-require': 'off',
+    'no-return-await': 'off',
   },
   overrides: [
     {
